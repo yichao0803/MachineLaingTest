@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Nov 27 16:29:12 2017
-
-@author: Administrator
+@date: 2017-12-04 16:20
+@project: MLTest
+@file: NeuralNetwork.py
+@author: yichao0803@gmail.com on PyCharm
 """
 
 import numpy as np

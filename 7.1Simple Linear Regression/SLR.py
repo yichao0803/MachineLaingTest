@@ -8,7 +8,6 @@
 
 import numpy as np
 
-
 def fitSLR(x, y):
     n = len(x)
     dinominator = 0

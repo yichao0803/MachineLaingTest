@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Nov 26 21:25:08 2017
-
-@author: Administrator
+@date: 2017-12-04 16:20
+@project: MLTest
+@file: SkLearnExample.py
+@author: yichao0803@gmail.com on PyCharm
 """
 
 print(__doc__)

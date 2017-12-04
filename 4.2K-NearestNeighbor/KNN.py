@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Nov 25 18:24:06 2017
-
-@author: Administrator
+@date: 2017-12-04 16:20
+@project: MLTest
+@file: KNN.py
+@author: yichao0803@gmail.com on PyCharm
 """
 
 # Example of kNN implemented from Scratch in Python

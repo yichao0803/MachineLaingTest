@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Nov 27 21:59:09 2017
-
-@author: Administrator
+@date: 2017-12-04 16:20
+@project: MLTest
+@file: HandwrittenDigitsReconnition.py
+@author: yichao0803@gmail.com on PyCharm
 """
 
 import numpy as np 

@@ -1,4 +1,10 @@
 # -*- coding: utf-8 -*-
+"""
+@date: 2017-12-04 16:20
+@project: MLTest
+@file: FaceRecognitionExample.py
+@author: yichao0803@gmail.com on PyCharm
+"""
 from __future__ import print_function
 
 from time import time

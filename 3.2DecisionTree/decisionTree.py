@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Nov 25 16:04:51 2017
-
-@author: Administrator
+@date: 2017-12-04 16:20
+@project: MLTest
+@file: decisionTree.py
+@author: yichao0803@gmail.com on PyCharm
 """
 
 from sklearn.feature_extraction import DictVectorizer
