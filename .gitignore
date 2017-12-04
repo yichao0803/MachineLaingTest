@@ -155,3 +155,4 @@ $RECYCLE.BIN/
 
 #Nerual Networks
 __pycache__
+*.pyc
