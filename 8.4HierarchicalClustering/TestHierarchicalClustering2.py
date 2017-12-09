@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-@date: 2017-12-06 20:18
-@project: MLTest
-@file: TestHierarchicalClustering.py
-@author: yichao0803@gmail.com on PyCharm
+@time: 2017/12/9 12:47
+@author: Zhang Yichao
+@file: TestHierarchicalClustering2.py
 """
 
 from PIL import Image # Notice the 'from PIL' at the start of the line
@@ -17,6 +16,7 @@ from HierarchicalClustering import get_cluster_elements
 from HierarchicalClustering import printclust
 import numpy as np
 import os
+
 
 
 def drawdendrogram(clust, imlist, jpeg='cluster.png'):
@@ -38,6 +38,8 @@ def drawdendrogram(clust, imlist, jpeg='cluster.png'):
     drawnode(draw, clust, 10, int(h / 2), scaling, imlist, img)
     img.save(jpeg)
 
+
+idxImage=1
 
 def drawnode(draw, clust, x, y, scaling, imlist, img):
     if clust.id < 0:
@@ -67,6 +69,16 @@ def drawnode(draw, clust, x, y, scaling, imlist, img):
         print(x, y - ns[1] // 2)
         print(x + ns[0])
         print(img.paste(nodeim, (int(x), int(y - ns[1] // 2), int(x + ns[0]), int(y + ns[1] - ns[1] // 2))))
+
+        nodeim1 = Image.open(imlist[clust.id])
+        #nodeim.thumbnail((20, 20))
+
+        #img = Image.new("RGB", (w, h), "#fff")
+        #draw = ImageDraw.Draw(img)
+        global idxImage
+        nodeim1.save(str(idxImage)+".jpg")
+        idxImage+=1
+
 
 
 # create a list of image

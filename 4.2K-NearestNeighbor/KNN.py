@@ -68,7 +68,7 @@ def main():
     trainingSet=[]
     testSet=[]
     split = 0.67
-    loadDataset(r'E:\cs\Study\Python\MachineLearningBasics_MachineLaing\Datasets\iris.data.txt', split, trainingSet, testSet)
+    loadDataset(r'..\DataSet\iris.data.txt', split, trainingSet, testSet)
     print('Train set: ' + repr(len(trainingSet)))
     print('Test set: ' + repr(len(testSet)))
     # generate predictions

@@ -10,7 +10,7 @@ from numpy import genfromtxt
 import numpy as np
 from sklearn import datasets, linear_model
 
-dataPath = r"E:\cs\Study\Python\MachineLearningBasics_MachineLaing\Datasets\Delivery.csv"
+dataPath = r"..\DataSet\Delivery.csv"
 deliveryData = genfromtxt(dataPath, delimiter=',')
 
 print("data")

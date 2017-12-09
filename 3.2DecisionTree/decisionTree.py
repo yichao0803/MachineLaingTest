@@ -14,7 +14,7 @@ from sklearn import tree
 
 def TestDecisionTree():    
     # Read in the csv file and put featres in a list of dict 
-    allElectronicsData=open('E:/cs/Study/Python/MachineLearningBasics_MachineLaing/Datasets/allElectronics.csv','r')
+    allElectronicsData=open(r'..\DataSet\allElectronics.csv','r')
     reader=csv.reader(allElectronicsData)
     headers = next(reader)
     
